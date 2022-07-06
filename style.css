@@ -1,0 +1,244 @@
+/* for all body */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+/* first section */
+#banner{
+background-image: url(images/donation5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner-text{
+text-align: center;
+padding: 300px 0px;   
+}
+.banner-text h1{
+color: white;
+font-size: 50px;
+padding-bottom: 20px;
+}
+.banner-text p{
+color: white;
+font-size: 20px;
+padding-bottom: 20px;
+}
+/* all-button-part */
+.btn{
+text-decoration: none;
+color: white;
+background-color: rgb(248, 79, 0);
+padding: 12px 21px;
+font-size: 25px;
+border-radius: 10px;
+margin-top: 10px;
+display: inline-block;
+}
+.btn:hover{
+background:  linear-gradient(red,black);
+}
+/* ------------ */
+
+
+/* donate-section */
+#donate_amount{
+margin-top: 100px;
+}
+.inner-text{
+text-align: center;
+}
+.inner-text h1{
+font-size: 50px;
+}
+.inner-text ul{
+margin-top: 50px;
+}
+.inner-text ul li{
+background-color: rgba(199, 216, 216, 0.199);
+display: inline;
+padding: 25px 20px;
+border-radius: 5px;
+margin: 0px 5px;
+}
+.inner-text ul li a{
+text-decoration: none;
+font-size: 25px;
+color: black;
+}
+.inner-text ul li a:hover{
+color: red;
+}
+.inner-text ul li:hover{
+border: 2px solid red;
+background-color: rgba(233, 20, 20, 0.203);
+color: red;
+}
+.input-amount{
+margin-top: 70px;
+}
+.input-amount input{
+font-size: 20px;
+border: none;
+text-align: center;
+outline: none;
+}
+.input-amount hr{
+width: 500px;
+align-self: center;
+margin: auto;
+}
+/* end-donate-section */
+
+
+/* donate-plan-section */
+#Donate-plan{
+margin-top: 100px;
+}
+.caption{
+text-align: center;
+}
+.caption h1{
+font-size: 50px;
+}
+.caption p{
+font-size: 20px;
+}
+
+/* Start-card */
+.card{
+display: flex;
+width: 80%;
+margin: auto;
+}
+.plan-card{
+margin: 40px 25px;
+border-radius: 5px;
+box-shadow: 0px 0px 8px -3px;
+padding: 30px 15px;
+}
+.plan-card h2{
+font-size: 30px;
+}
+.plan-card p{
+font-size: 20px;
+}
+.plan-card1{
+background-color: rgba(51, 51, 251, 0.104);
+}
+.plan-card2{
+background-color: rgba(247, 128, 209, 0.116);
+}
+.plan-card3{
+background-color: rgba(247, 10, 136, 0.103);
+}
+/* end-donate-plan-section */
+
+
+/* Current-situation-part */
+#situation{
+margin-top: 50px;
+}
+#situation h1{
+text-align: center;
+font-size: 50px;
+}
+.current-situation{
+display: flex;
+margin: auto;
+width: 80%;
+}
+
+/* extra-class-for-3-div */
+.current-situation123{
+margin: 40px 25px;
+border-radius: 5px;
+box-shadow: 0px 0px 8px -3px;
+padding: 17px 15px;
+width: 457px;
+}
+
+
+.current-situation123 h2{
+font-size: 45px;
+text-align: center;
+color: rgb(255, 9, 132);
+font-weight: 700;
+}
+.current-situation123 p{
+padding: 130px 0px;
+text-align: justify;
+font-size: 35px;
+color: rgb(226, 226, 226);
+font-weight: 600;
+}
+.sunamganj{
+background-image: url(images/donation6.jpg);
+}
+.kurigram{
+background-image: url(images/donation7.jpg);
+}
+.sylhet{
+background-image:url(images/donation9.jpg) ;   
+}
+
+
+/* ------------ */
+
+
+/* Stat-update-section */
+#Update{
+margin-top: 100px;
+text-align: center;
+}
+#Update h1{
+font-size: 50px;
+}
+#Update p{
+font-size: 20px;
+margin-top: 30px;
+}
+.email-box{
+padding: 50px 154px 50px 100px;
+background-color: rgb(246, 230, 195);
+display: flex;
+width: 20%;
+margin: auto;
+margin-top: 50px;
+}
+.email-box form input{
+font-size: 25px;
+background-color: rgba(165, 160, 160, 0.826);
+color: rgb(0, 0, 0);
+margin-top: 0px;
+border: none;
+outline: none;
+padding: 5px 1px;
+}
+.sub-btn{
+text-decoration: none;
+color: white;
+background-color: rgb(248, 79, 0);
+padding: 5px 7px;
+font-size: 25px;
+}
+/* end-update-section */
+
+
+/* start-footer-section */
+#footer{
+text-align: center;
+background-color: black;
+margin-top: 100px;
+}
+#footer h1{
+font-size: 50px;
+color: orange;
+padding-top: 50px;
+}
+#footer p{
+font-size: 20px;
+color: white;
+padding-bottom: 50px;
+}
+/* end-footer */
